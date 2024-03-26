@@ -1,8 +1,11 @@
+import PageHeader from "./layouts/PageHeader"
+
 function App() {
   return (
-    <>
-      <h1>Home Page</h1>
-    </>
+    <div className="flex flex-col max-h-screen">
+      <PageHeader />
+      <div>2</div>
+    </div>
   )
 }
 
