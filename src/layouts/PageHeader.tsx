@@ -40,7 +40,7 @@ const PageHeader = () => {
           <input
             type="search"
             placeholder="Search"
-            className="w-full px-4 py-1 text-lg border rounded-l-full shadow-inner outline-none border-secondary-border shadow-secondary focus:border-blue-500"
+            className="w-full px-4 py-1 text-lg border rounded-l-full shadow-inner outline-none border-secondary-border shadow-secondary focus:border-blue-500 focus:shadow-blue-100"
           />
           <Button className="flex-shrink-0 px-4 py-2 border border-l-0 rounded-r-full border-secondary-border">
             <Search />
